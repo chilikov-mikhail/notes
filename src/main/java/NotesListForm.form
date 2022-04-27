@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="NotesListForm">
+  <grid id="27dc6" binding="notesListPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="84462" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="South"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="4a9cf" class="javax.swing.JButton" binding="openButton">
+            <constraints/>
+            <properties>
+              <text value="Открыть заметку"/>
+            </properties>
+          </component>
+          <component id="78acc" class="javax.swing.JButton" binding="deleteButton">
+            <constraints/>
+            <properties>
+              <text value="Удалить заметку"/>
+            </properties>
+          </component>
+          <component id="51eb4" class="javax.swing.JButton" binding="createNewNoteButton">
+            <constraints/>
+            <properties>
+              <text value="Создать новую заметку"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="12993" class="javax.swing.JList" binding="notesList">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <model/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
